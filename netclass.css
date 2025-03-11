@@ -12,10 +12,10 @@ body {
 .nav-bar {
   height: 5vh;
   width: 100vw;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding-left: 10px;
   padding-top: 10px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -30,7 +30,7 @@ button {
   font-weight: 400;
   font-size: 22px;
   border: none;
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -41,7 +41,7 @@ button {
  
 button:hover {
   background-color: rgb(206, 0, 0);
-  color: white
+  color: rgb(255, 255, 255)
 }
 
 .container {
@@ -60,7 +60,7 @@ button:hover {
   margin-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: white
+  background-color: rgb(255, 255, 255)
 }
 
 h1 {
@@ -81,7 +81,7 @@ ul {
 }
 
 li {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-size: 19px;
   
 }
