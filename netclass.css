@@ -1,70 +1,87 @@
-.netclass {
-  color: rgb(0, 0, 0);
-  font-family: "Inter Tight";
-  font-size: 40px;
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.nav-bar {
+  height: 5vh;
+  width: 100vw;
+  background-color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.logo {
+  font-family: "Radio Canada Big";
+  font-size: 25px;
+  color: black;
   font-weight: 400;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0px;
-  cursor: pointer;
-  transition: color 0.2s;
-}
-
-.netclass:hover {
-  color: rgb(255, 0, 0);
-}
-
-h3 {
-  color: rgb(0, 0, 0);
-  font-family: "Inter Tight";
-}
-
-p {
-  color: rgb(0, 0, 0);
-  font-family: "Inter Tight";
 }
 
 button {
-  background-color: rgb(0, 0, 0);;
-  color: rgb(255, 255, 255);
-  border-width: 0.1px;
-  border-radius: 4px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  display: inline;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-family: sans-serif;
-  font-size: 20px;
-  float: right;
-  vertical-align: top;
-  transition: color 0.2s;
-  margin-right: 10px;
-}
-
-button:hover {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 22px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
-  color: rgb(255, 0, 0);
+}
+ 
+button:hover {
+  background-color: rgb(206, 0, 0);
+  color: white
 }
 
-.interface {
-  height: 50vh;
-  width: 80vw;
-  color: rgb(0, 0, 0)
-
+.container {
+  display: flex;
+  margin-top: 100px;
+  background-color: rgb(240, 240, 240);
 }
 
-.large-text {
-  font-family: "Montserrat";
-  font-size: 75px;
+.subscription {
+  border: none;
+  font-family: "Radio Canada Big";
+  font-weight: 400;
+  font-weight: 22px;
+  width: 40%;
+  text-align: center;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white
+}
+
+h1 {
+  font-family: "Radio Canada Big";
+  font-size: 24px;
   font-weight: 400;
 }
 
-u {
-  text-decoration-color: rgb(255, 0, 0);
-  font-family: "Montserrat";
+p {
+  font-family: "Radio Canada Big";
+  font-size: 20px;
   font-weight: 400;
-  font-size: 130px;
+}
+
+ul {
+  text-align: left;
+  line-height: 38px;
+}
+
+li {
+  font-family: 'IBM Plex Sans';
+  font-size: 19px;
+  
 }
