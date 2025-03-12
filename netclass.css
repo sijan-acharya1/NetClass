@@ -18,30 +18,34 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-family: 'Roboto Flex';
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
 .logo {
   font-family: "Radio Canada Big";
   font-size: 25px;
   color: black;
   font-weight: 400;
+  display: inline-block;
 }
 
-button {
+.purchase {
   font-family: "IBM Plex Sans";
+  font-size: 18px;
   font-weight: 400;
-  font-size: 22px;
-  border: none;
-  background-color: rgb(255, 0, 0);
-  color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  cursor: pointer;
-}
- 
-button:hover {
-  background-color: rgb(206, 0, 0);
-  color: rgb(255, 255, 255)
+  background-color: white;
+  color: black;
+
 }
 
 .container {
@@ -51,13 +55,14 @@ button:hover {
 }
 
 .subscription {
-  border: none;
+  border-radius: 24px;
+  border-width: 1px;
   font-family: "Radio Canada Big";
   font-weight: 400;
   font-weight: 22px;
-  width: 40%;
+  width: 37%;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: rgb(255, 255, 255)
@@ -81,7 +86,14 @@ ul {
 }
 
 li {
-  font-family: "IBM Plex Sans";
-  font-size: 19px;
+  font-family: "Roboto Flex";
+  font-size: 18px;
   
+}
+
+.big {
+  font-family: "Radio Canada Big";
+  font-size: 28px;
+  color: red;
+  font-weight: 500;
 }
