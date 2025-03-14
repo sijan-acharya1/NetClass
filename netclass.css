@@ -153,21 +153,42 @@ u {
   background-color: white; 
 }
 
-.docker {
-  display: flex; /* Enables flexbox */
-  gap: 100px; /* Adds space between boxes */
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
+.free-space {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: 30vh;
+  width: 100vw;
+  background-color: white;
 }
 
-.plan {
-  width: 40%;
-  height: 90%;
-  background-color: rgb(130, 130, 130);
-  text-align: left;
-  line-height: 100px;
-  font-size: 18px;
-  border: 1px solid black;
+.block {
+  flex: 1;
+  height: 30vh;
+  width: 30vw;
+  background-color: white;
+  flex-direction: row;
+  text-align: center;
+}
 
+.reason {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between; /* Optional: Adds space between divs */
+  gap: 5px; /* Optional: Adds gap between divs */
+}
+
+.testbox {
+  flex: 1;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
 }
