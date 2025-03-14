@@ -31,9 +31,10 @@ h1 {
 }
 
 p {
-  font-family: "Radio Canada Big";
-  font-size: 20px;
+  font-family: "Noto Sans Thai";
+  font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 ul {
@@ -106,8 +107,8 @@ u {
   background-color: rgb(255, 0, 0);
   border-style: solid;
   border-radius: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 8px;
   padding-left: 30px;
   padding-right: 30px;
   color: white;
@@ -118,6 +119,9 @@ u {
   margin-right: 25px;
   vertical-align: bottom;
   cursor: pointer;
+}
+.start-trial-btn:hover {
+  background-color: rgba(255, 0, 0, 0.8);
 }
 
 .netclass {
@@ -136,6 +140,10 @@ u {
   font-weight: 500;
   cursor: pointer;
   margin-top: 30px;
+  transition: background-color 0.2s;
+}
+.netclass:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .container {
