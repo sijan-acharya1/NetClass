@@ -5,6 +5,11 @@
   margin-right: 0px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .nav-bar {
   height: 5vh;
   width: 100vw;
@@ -14,7 +19,7 @@
 
 .logo {
   font-family: "Radio Canada Big";
-  font-size: 25px;
+  font-size: 26px;
   color: rgb(255, 255, 255);
   font-weight: 400;
   display: inline-block;
@@ -74,11 +79,6 @@ li {
 .purchase:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-  
-u {
-  text-decoration-color: rgb(255, 0, 0);
-  font-size: 120px;
-}
 
 .interface {
   height: 60vh;
@@ -97,18 +97,25 @@ u {
 
 .platform2 {
   font-family: 'Inter';
-  font-weight: 400;
-  font-size: 26px;
+  font-weight: 500;
+  font-size: 28px;
   text-align: center;
 }
 
+.platform3 {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
 
 .start-trial-btn {
   background-color: rgb(255, 0, 0);
   border-style: solid;
   border-radius: 0px;
   padding-top: 4px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
   color: white;
@@ -157,7 +164,7 @@ u {
 
 .info {
   height: 30vh;
-  width: 75vw;
+  width: 70vw;
   background-color: white; 
 }
 
@@ -178,16 +185,9 @@ u {
   flex-direction: row;
   text-align: center;
 }
-
-.reason {
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 24px;
-  text-align: center;
-  color: black;
-}
-
 .test {
+  height: 10vh;
+  width: 100vw;
   display: flex;
   justify-content: space-between; /* Optional: Adds space between divs */
   gap: 5px; /* Optional: Adds gap between divs */
@@ -200,3 +200,92 @@ u {
   text-align: center;
   padding: 20px;
 }
+
+.second-interface {
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.new-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  background-color: black;
+}
+.new-box {
+  width: 550px;
+  height: 750px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: white;
+  font-size: 20px;
+  border-radius: 22px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.small-text {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.main-content {
+  min-height: 100%;
+  padding-bottom: 50px; /* Adjust based on footer height */
+}
+
+footer {
+  height: 30vh; /* Adjust based on your footer's height */
+  background-color: #000000;
+  color: white;
+  text-align: left;
+  bottom: 0;
+  width: 100%;
+  justify-items: left;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-box {
+  background: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 32%; /* Ensures three equal boxes */
+}
+
+.reason {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  display: block;
+  line-height: 40px;
+}
+
+.reason2 {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  display: block;
+  line-height: 32px;
+}
+
